@@ -12,6 +12,8 @@ import com.example.mygreendao.bean.MockResult;
 import java.util.ArrayList;
 import java.util.List;
 
+//GreenDao数据库基本类
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     /**

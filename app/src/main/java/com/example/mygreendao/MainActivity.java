@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+		//初始化布局
         setContentView(R.layout.activity_main);
         initView();
         mStudentDaoUtil = new StudentDaoUtil(this);

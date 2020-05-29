@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mStudentDaoUtil = new StudentDaoUtil(this);
     }
 
+	//chushiahu1
     private void initView() {
         mInsert = (Button) findViewById(R.id.insert);
         mInsert.setOnClickListener(this);

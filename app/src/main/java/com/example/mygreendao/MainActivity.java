@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mShow = (TextView) findViewById(R.id.show);
     }
 
+	//店家时间
     @Override
     public void onClick(View v) {
         switch (v.getId()) {

@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             default:
                 break;
+				//插入
             case R.id.insert:
                 List<MockResult> list = new ArrayList<>();
                 for (int i = 0; i < 5; i++) {
